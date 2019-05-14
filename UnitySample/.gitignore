@@ -37,6 +37,8 @@ sysinfo.txt
 /Logs/
 /Assets/Plugins/*/NativePlugin*
 /Assets/Plugins/Android/libs/*/libNativePlugin*
+/Assets/Plugins/WSA/*/NativePlugin*
+/Assets/Plugins/WSA/*/WindowsUWP*
 /Assets/MagicLeap/*
 !.gitkeep
 !ReadMe.txt

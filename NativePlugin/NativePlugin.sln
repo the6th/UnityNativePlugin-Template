@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsDLL", "WindowsDLL\Wi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AndroidLib", "AndroidLib\AndroidLib.vcxproj", "{7BE406C3-B045-4233-A278-2E6E81AB4338}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsUWP", "WindowsUWP\WindowsUWP.vcxproj", "{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -49,6 +51,22 @@ Global
 		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Release|x64.Build.0 = Release|x64
 		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Release|x86.ActiveCfg = Release|x86
 		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Release|x86.Build.0 = Release|x86
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Debug|ARM.Build.0 = Debug|ARM
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Debug|ARM64.Build.0 = Debug|ARM64
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Debug|x64.ActiveCfg = Debug|x64
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Debug|x64.Build.0 = Debug|x64
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Debug|x86.ActiveCfg = Debug|Win32
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Debug|x86.Build.0 = Debug|Win32
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Release|ARM.ActiveCfg = Release|ARM
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Release|ARM.Build.0 = Release|ARM
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Release|ARM64.ActiveCfg = Release|ARM64
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Release|ARM64.Build.0 = Release|ARM64
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Release|x64.ActiveCfg = Release|x64
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Release|x64.Build.0 = Release|x64
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Release|x86.ActiveCfg = Release|Win32
+		{1884F9E1-DD8E-43FA-85DF-FFE9F3A30323}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

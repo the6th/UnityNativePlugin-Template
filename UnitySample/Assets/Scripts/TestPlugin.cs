@@ -12,7 +12,7 @@ public class TestPlugin : MonoBehaviour
     {
         textMesh = gameObject.GetComponent<TextMesh>();
 
-        Invoke("Test", 2);
+        Invoke("Test", 1);
     }
 
     void Test()
