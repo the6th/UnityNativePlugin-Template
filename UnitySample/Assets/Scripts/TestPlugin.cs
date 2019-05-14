@@ -2,26 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestPlugin : MonoBehaviour {
+public class TestPlugin : MonoBehaviour
+{
 
     TextMesh textMesh;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
 
         textMesh = gameObject.GetComponent<TextMesh>();
         Test();
     }
-	
+
     void Test()
     {
-        Debug.Log("Plugin load..");
+        var msg = "Plugin load..";
+        textMesh.text = msg;
+        Debug.Log(msg);
 
 
         NativePluginSample.HogeFunction();
         var i = NativePluginSample.FugaFunction(0);
 
-        var msg = string.Format("FugaFunction \r\n returns  \r\n \"{0}\"", i);
+        msg = string.Format("FugaFunction \r\n returns  \r\n \"{0}\"", i);
         Debug.Log(msg);
         textMesh.text = msg;
 
