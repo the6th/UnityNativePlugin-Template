@@ -36,4 +36,4 @@ sysinfo.txt
 /App/
 
 /Assets/Plugins/*/NativePlugin*
-/Assets/Plugins/Android/libs/*/NativePlugin*
+/Assets/Plugins/Android/libs/*/libNativePlugin*

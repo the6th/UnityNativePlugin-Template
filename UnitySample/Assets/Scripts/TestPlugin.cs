@@ -10,9 +10,9 @@ public class TestPlugin : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
         textMesh = gameObject.GetComponent<TextMesh>();
-        Test();
+
+        Invoke("Test", 2);
     }
 
     void Test()

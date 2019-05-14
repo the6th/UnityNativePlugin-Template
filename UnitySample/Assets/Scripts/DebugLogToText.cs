@@ -11,7 +11,7 @@ public class DebugLogToText : MonoBehaviour
     [SerializeField]
     TextMesh logTextMesh;
 
-    private const int LOG_MAX = 10;
+    private const int LOG_MAX = 20;
     private Queue<string> logStack = new Queue<string>(LOG_MAX);
     // Use this for initialization
     void Start()
@@ -50,9 +50,10 @@ public class DebugLogToText : MonoBehaviour
     /// <param name="type">ログの種類</param>
     public void LogCallback(string condition, string stackTrace, LogType type)
     {
+
         // 通常ログまで表示すると邪魔なので無視
-        //   if (type == LogType.Log)
-        //     return;
+           //if (type == LogType.Log)
+           //  return;
 
         string trace = null;
         string color = null;
