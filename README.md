@@ -1,0 +1,1 @@
+# UnityNativePlugin-Template
