@@ -37,3 +37,8 @@ sysinfo.txt
 /Logs/
 /Assets/Plugins/*/NativePlugin*
 /Assets/Plugins/Android/libs/*/libNativePlugin*
+/Assets/MagicLeap/*
+!.gitkeep
+!ReadMe.txt
+/.out/
+/bin/
