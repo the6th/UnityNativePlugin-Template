@@ -91,26 +91,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <TargetName>NativePlugin</TargetName>
+    <TargetName>libNativePlugin</TargetName>
     <OutDir>..\..\UnitySample\Assets\Plugins\Android\libs\arm64-8va</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
-    <TargetName>NativePlugin</TargetName>
+    <TargetName>libNativePlugin</TargetName>
     <OutDir>..\..\UnitySample\Assets\Plugins\Android\libs\x86</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
-    <TargetName>NativePlugin</TargetName>
+    <TargetName>libNativePlugin</TargetName>
     <OutDir>..\..\UnitySample\Assets\Plugins\Android\libs\arm64-8va</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
-    <TargetName>NativePlugin</TargetName>
-    <OutDir>..\..\UnitySample\Assets\Plugins\Android\libs\armarbi-v7a</OutDir>
+    <TargetName>libNativePlugin</TargetName>
+    <OutDir>..\..\UnitySample\Assets\Plugins\Android\libs\armeabi-v7a</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
