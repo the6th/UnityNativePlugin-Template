@@ -7,22 +7,48 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativePlugin", "NativePlugi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsDLL", "WindowsDLL\WindowsDLL.vcxproj", "{F5163930-071D-400E-819A-B4FCF4D61C48}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AndroidLib", "AndroidLib\AndroidLib.vcxproj", "{7BE406C3-B045-4233-A278-2E6E81AB4338}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5163930-071D-400E-819A-B4FCF4D61C48}.Debug|ARM.ActiveCfg = Debug|Win32
+		{F5163930-071D-400E-819A-B4FCF4D61C48}.Debug|ARM64.ActiveCfg = Debug|Win32
 		{F5163930-071D-400E-819A-B4FCF4D61C48}.Debug|x64.ActiveCfg = Debug|x64
 		{F5163930-071D-400E-819A-B4FCF4D61C48}.Debug|x64.Build.0 = Debug|x64
 		{F5163930-071D-400E-819A-B4FCF4D61C48}.Debug|x86.ActiveCfg = Debug|Win32
 		{F5163930-071D-400E-819A-B4FCF4D61C48}.Debug|x86.Build.0 = Debug|Win32
+		{F5163930-071D-400E-819A-B4FCF4D61C48}.Release|ARM.ActiveCfg = Release|Win32
+		{F5163930-071D-400E-819A-B4FCF4D61C48}.Release|ARM64.ActiveCfg = Release|Win32
 		{F5163930-071D-400E-819A-B4FCF4D61C48}.Release|x64.ActiveCfg = Release|x64
 		{F5163930-071D-400E-819A-B4FCF4D61C48}.Release|x64.Build.0 = Release|x64
 		{F5163930-071D-400E-819A-B4FCF4D61C48}.Release|x86.ActiveCfg = Release|Win32
 		{F5163930-071D-400E-819A-B4FCF4D61C48}.Release|x86.Build.0 = Release|Win32
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Debug|ARM.Build.0 = Debug|ARM
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Debug|ARM64.Build.0 = Debug|ARM64
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Debug|x64.ActiveCfg = Debug|x64
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Debug|x64.Build.0 = Debug|x64
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Debug|x86.ActiveCfg = Debug|x86
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Debug|x86.Build.0 = Debug|x86
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Release|ARM.ActiveCfg = Release|ARM
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Release|ARM.Build.0 = Release|ARM
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Release|ARM64.ActiveCfg = Release|ARM64
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Release|ARM64.Build.0 = Release|ARM64
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Release|x64.ActiveCfg = Release|x64
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Release|x64.Build.0 = Release|x64
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Release|x86.ActiveCfg = Release|x86
+		{7BE406C3-B045-4233-A278-2E6E81AB4338}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
