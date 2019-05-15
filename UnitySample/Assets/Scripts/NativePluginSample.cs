@@ -11,18 +11,19 @@ public class NativePluginSample
     public const string LIB_NAME = "NativePlugin";
 #endif
 
-    [DllImport(NativePluginSample.LIB_NAME, EntryPoint = "jp_the6th_NativeSample_hogeFunction")]
-    private static extern void hogeFunction();
-    [DllImport(NativePluginSample.LIB_NAME, EntryPoint = "jp_the6th_NativeSample_fugaFunction")]
-    private static extern int fugaFunction(int arg);
+    [DllImport(NativePluginSample.LIB_NAME, EntryPoint = "jp_the6th_NativeSample_func1")]
+    private static extern void func1();
+    [DllImport(NativePluginSample.LIB_NAME, EntryPoint = "jp_the6th_NativeSample_func2")]
+    private static extern int func2(int arg);
 
-    public static void HogeFunction()
+    public static void Func1()
     {
-        hogeFunction();
+        func1();
     }
 
-    public static int FugaFunction(int arg)
+    public static int Func2(int arg)
     {
-        return fugaFunction(arg);
+        return func2(arg);
     }
+
 }

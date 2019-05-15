@@ -10,6 +10,6 @@
 
 
 extern "C" {
-	NATIVE_API void jp_the6th_NativeSample_hogeFunction();
-	NATIVE_API int jp_the6th_NativeSample_fugaFunction(int);
+	NATIVE_API void jp_the6th_NativeSample_func1();
+	NATIVE_API int jp_the6th_NativeSample_func2(int);
 }

@@ -20,10 +20,10 @@ public class TestPlugin : MonoBehaviour
         var msg = "Plugin load..";
         textMesh.text = msg;
         Debug.Log(msg);
+            
 
-
-        NativePluginSample.HogeFunction();
-        var i = NativePluginSample.FugaFunction(0);
+        NativePluginSample.Func1();
+        var i = NativePluginSample.Func2(9);
 
         msg = string.Format("FugaFunction \r\n returns  \r\n \"{0}\"", i);
         Debug.Log(msg);
