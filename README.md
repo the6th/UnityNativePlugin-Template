@@ -40,3 +40,22 @@ NATIVE_API int jp_the6th_NativeSample_fugaFunction(int)
 * Windows 10
 * Unity 2019.1.0f1
 * Visual Studio 2017
+
+---
+
+## How to use
+
+### A. Generate native plugins on Visual Studio 2017
+
+1. Open NativePlugin/NativePlugin.sln
+2. Toolbar -> Build -> Batch build ,then press [Build]
+	- 7 of Dynamic libraries are generated to Unity project folder (UnitySample\Assets\Plugins).
+
+### B. Build Unity application each target platform.
+
+1. Open Unity project , /UnitySample , with Unity 2019.1.0f1. 
+2. Setup Import plugin settings for each platform.
+3. Switch platform on build settings window.
+4. then,build and deploy it.
+
+	
