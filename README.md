@@ -23,13 +23,15 @@ NATIVE_API int jp_the6th_NativeSample_fugaFunction(int)
 
 ## Target Platform (trying now)
 
-|Platform|status|
+|Platform|Status|
 |---|---|
 |Unity Editor(Windows)| :white_check_mark: Success|
 |Windows Standalone| :white_check_mark: Success|
 |HoloLens 1(UWP/x86)| :white_check_mark: Success|
 |HoloLens 2(UWP/ARM64)|Not yet|
 |Android (ARM64)| :white_check_mark: Success|
+|Android (ARM)| :white_check_mark: Success, but not tested |
+|Android (x86)| :white_check_mark: Success, but not tested |
 |LuminOS(Magic Leap/ARM64)|:white_check_mark: Success|
 |Mac OS|Not yet|
 |iOS|Not yet|
