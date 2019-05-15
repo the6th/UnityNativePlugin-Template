@@ -29,6 +29,13 @@ public class TestPlugin : MonoBehaviour
         Debug.Log(msg);
         textMesh.text = msg;
 
+        ZstdTest();
+
+    }
+
+    void ZstdTest()
+    {
+        gameObject.AddComponent<ZSTDTest>();
     }
 
 }
